@@ -1,0 +1,126 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Hands">
+      <UniqueIdentifier>{bc6a9cc6-6729-480d-b2f7-f09d84bb7d31}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Hands">
+      <UniqueIdentifier>{0e4820e5-9073-45f0-af6c-7dc58b87d9d6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Card.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Deck.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="StraightFlush.h">
+      <Filter>Header Files\Hands</Filter>
+    </ClInclude>
+    <ClInclude Include="FourOfAKind.h">
+      <Filter>Header Files\Hands</Filter>
+    </ClInclude>
+    <ClInclude Include="FullHouse.h">
+      <Filter>Header Files\Hands</Filter>
+    </ClInclude>
+    <ClInclude Include="Flush.h">
+      <Filter>Header Files\Hands</Filter>
+    </ClInclude>
+    <ClInclude Include="Straight.h">
+      <Filter>Header Files\Hands</Filter>
+    </ClInclude>
+    <ClInclude Include="ThreeOfAKind.h">
+      <Filter>Header Files\Hands</Filter>
+    </ClInclude>
+    <ClInclude Include="TwoPair.h">
+      <Filter>Header Files\Hands</Filter>
+    </ClInclude>
+    <ClInclude Include="Pair.h">
+      <Filter>Header Files\Hands</Filter>
+    </ClInclude>
+    <ClInclude Include="HighCard.h">
+      <Filter>Header Files\Hands</Filter>
+    </ClInclude>
+    <ClInclude Include="Hand.h">
+      <Filter>Header Files\Hands</Filter>
+    </ClInclude>
+    <ClInclude Include="RoyalFlush.h">
+      <Filter>Header Files\Hands</Filter>
+    </ClInclude>
+    <ClInclude Include="HandDeterminator.h">
+      <Filter>Header Files\Hands</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Deck.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Card.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Hand.cpp">
+      <Filter>Source Files\Hands</Filter>
+    </ClCompile>
+    <ClCompile Include="HandDeterminator.cpp">
+      <Filter>Source Files\Hands</Filter>
+    </ClCompile>
+    <ClCompile Include="HighCard.cpp">
+      <Filter>Source Files\Hands</Filter>
+    </ClCompile>
+    <ClCompile Include="TwoPair.cpp">
+      <Filter>Source Files\Hands</Filter>
+    </ClCompile>
+    <ClCompile Include="Pair.cpp">
+      <Filter>Source Files\Hands</Filter>
+    </ClCompile>
+    <ClCompile Include="ThreeOfAKind.cpp">
+      <Filter>Source Files\Hands</Filter>
+    </ClCompile>
+    <ClCompile Include="Straight.cpp">
+      <Filter>Source Files\Hands</Filter>
+    </ClCompile>
+    <ClCompile Include="Flush.cpp">
+      <Filter>Source Files\Hands</Filter>
+    </ClCompile>
+    <ClCompile Include="FullHouse.cpp">
+      <Filter>Source Files\Hands</Filter>
+    </ClCompile>
+    <ClCompile Include="FourOfAKind.cpp">
+      <Filter>Source Files\Hands</Filter>
+    </ClCompile>
+    <ClCompile Include="StraightFlush.cpp">
+      <Filter>Source Files\Hands</Filter>
+    </ClCompile>
+    <ClCompile Include="RoyalFlush.cpp">
+      <Filter>Source Files\Hands</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
